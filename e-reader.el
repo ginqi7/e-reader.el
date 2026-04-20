@@ -32,7 +32,8 @@
   "Pixel height per line for rendering text.")
 
 (defcustom e-reader-replacements
-  '(("’" . "'"))
+  '(("’" . "'")
+    ("‐" . ""))
   "Alist of character replacements to apply during text rendering.
 Each element is a cons cell (FROM . TO) where FROM is replaced by TO.")
 
